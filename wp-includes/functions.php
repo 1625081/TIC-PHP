@@ -68,7 +68,6 @@ function current_time( $type, $gmt = 0 ) {
 			return ( $gmt ) ? date( $type ) : date( $type, time() + ( get_option( 'gmt_offset' ) * HOUR_IN_SECONDS ) );
 	}
 }
-
 /**
  * Retrieve the date in localized format, based on timestamp.
  *
